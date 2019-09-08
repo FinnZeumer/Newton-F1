@@ -1,0 +1,325 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(17, 30, 108);
+}
+
+.main-header-container {
+    background: #fff;
+}
+
+.main-header,
+.intro,
+.intro-content,
+.columns,
+.slogan,
+.legal,
+.content-header,
+.content,
+.unser-team-main-container{
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.main-header 
+.logo {
+    float: left;
+}
+
+.main-header nav {
+    float: right;
+    padding-top:10px;
+}
+
+.main-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header li {
+    float: left;
+}
+
+.main-header nav a {
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 300;
+    color: black;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.main-header nav a:hover{
+    border-color: rgb(17, 30, 108);
+}
+
+.intro-container {
+    background: transparent url(../img/BlauerNebel.JPG) bottom center no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.intro h1 span{
+    display: block;
+    font-size: 30px; 
+}
+
+.intro-content-container {
+    background: rgb(78, 78, 78);
+    padding: 40px 0;
+}
+
+.intro-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.intro-text, 
+.intro-aside{
+    float: left;
+    padding: 20px;
+}
+
+.intro-text{
+    width: 60%;
+}
+
+.intro-text p{
+    margin-top: 0;
+}
+
+.intro-aside{
+    width: 40%;
+    border-left: 1px solid silver;
+}
+
+.intro-aside h3,
+.intro-aside p {
+    margin: 0;
+}
+
+.columns-container{
+    background: #e3d8c6;
+    padding: 40px 0;
+}
+
+.columns {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.columns article {
+    float: left;
+    width: 33.33%;
+    padding: 0 20px;
+    text-align: center;
+    border-left: 2px solid silver;
+}
+
+.columns article:first-child{
+    border: none;
+}
+
+.columns article.button {
+    display: block;
+}
+
+.slogan-container{
+    background:#f1ede4;
+}
+
+.slogan p{
+    font-size: 23px;  
+    line-height: 1.2;
+}
+
+.slogan p span{
+    display: block;
+    font-weight: 700;
+}
+
+.legal-container{
+    background:#2e2e2e;
+    color: #e3d8c6;
+}
+
+.legal-container a{
+    color: #e3d8c6;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    padding: 1px;
+}
+
+.legal-container a:hover{
+    border-color: #e3d8c6;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.legal-container img {
+    margin: 0 4px;
+    vertical-align: text-bottom;
+}
+
+/* Unser Team */
+
+.unser-team-main-container{
+  -webkit-column-count: 2;
+  -webkit-grid-column-gap: 10px;  
+
+  -moz-column-count: 2;
+  -moz-grid-column-gap: 10px;
+    -o-column-count: 2;
+  -o-grid-column-gap: 10px;
+
+  column-count: 2;
+  grid-column-gap: 10px;
+}
+
+.unser-team-main-container p{
+    font-size: 20px;
+    border: red 5px solid;
+}
+
+.unser-team-main-container img{
+    border: solid red 5px;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(17, 30, 108);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.button:hover{
+    background: rgb(17, 30, 108);
+    color: black;
+}
+
+.btn-dark{
+    border-color: black;
+    color: black;
+}
+
+.btn-dark:hover{
+    background: black;
+    color: #D28202;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}  
+
+/* Mediaqueries*/
+
+@media screen and (max-width: 850px){
+  .main-header .logo,
+  .main-header nav,
+  .main-header li{
+      float: none;
+  }
+
+  .main-header nav{
+      padding: 10px;
+  }
+
+  .main-header{
+      text-align: center;
+  }
+
+  .main-header li{
+      display: inline-block;
+  }
+
+  .intro-text,
+  .intro-aside{
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px){
+    .intro-container {
+        height: 200px;
+    }
+    
+    .intro{
+        padding-top: 20px;
+    }
+    
+    .intro h1{
+        font-size: 30px;
+    }
+
+    .intro h1 span{
+        font-size: 16px;
+    }
+
+    .columns  article {
+        width: 100%;
+        border: none;
+        border-top: 1px solid silver;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    .coloumns article:first-child {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
