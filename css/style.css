@@ -35,7 +35,7 @@ a {
 .legal,
 .content-header,
 .content,
-.unser-team-main-container{
+.row{
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
@@ -200,27 +200,20 @@ a {
 }
 
 /* Unser Team */
-
-.unser-team-main-container{
-  -webkit-column-count: 2;
-  -webkit-grid-column-gap: 10px;  
-
-  -moz-column-count: 2;
-  -moz-grid-column-gap: 10px;
-    -o-column-count: 2;
-  -o-grid-column-gap: 10px;
-
-  column-count: 2;
-  grid-column-gap: 10px;
+.row{
+    background: #D28202;
+}
+.column {
+  float: left;
+  width: 50%;
+  column-gap:300px;
 }
 
-.unser-team-main-container p{
-    font-size: 20px;
-    border: red 5px solid;
-}
-
-.unser-team-main-container img{
-    border: solid red 5px;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Button */
