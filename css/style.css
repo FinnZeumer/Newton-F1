@@ -34,8 +34,8 @@ a {
 .slogan,
 .legal,
 .content-header,
-.content,
-.row{
+.unser-team,
+.Überschrift{
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
@@ -200,20 +200,30 @@ a {
 }
 
 /* Unser Team */
-.row{
-    background: #D28202;
-}
-.column {
-  float: left;
-  width: 50%;
-  column-gap:300px;
+
+.unser-team{
+    border-bottom: solid 4px silver;
+    column-gap: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.unser-team p{
+    font-size: 23px;
+}
+
+.unser-team a{
+    color: rgb(17, 30, 108);
+}
+
+.hh{
+    background: transparent url(../img/BlauerNebel.JPG) bottom center no-repeat;
+    height: 200px;;
+    background-size:cover;
+}
+.hh h1{
+    text-align: center;
+    padding-top:40px;
+    text-decoration: underline;
+    color: orange;
 }
 
 /* Button */
