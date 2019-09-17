@@ -20,11 +20,11 @@ h2 {
 
 a {
     text-decoration: none;
-    color:rgb(17, 30, 108);
+    color: white;
 }
 
 .main-header-container {
-    background: #fff;
+    background: white;
 }
 
 .main-header,
@@ -36,7 +36,8 @@ a {
 .content-header,
 .unser-team,
 .Überschrift,
-.container-wettbewerb-beschreibung{
+.container-wettbewerb-beschreibung,
+.Sponsoren-beschreibung{
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
@@ -87,7 +88,7 @@ a {
 
 .intro {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 145px;
 }
 
 .intro h1 {
@@ -101,7 +102,7 @@ a {
 }
 
 .intro-content-container {
-    background: rgb(78, 78, 78);
+    background: blue;
     padding: 40px 0;
 }
 
@@ -161,12 +162,13 @@ a {
 }
 
 .slogan-container{
-    background:#f1ede4;
+    background:#2e2e2e;
 }
 
 .slogan p{
     font-size: 23px;  
     line-height: 1.2;
+    color: #e3d8c6;
 }
 
 .slogan p span{
@@ -214,32 +216,36 @@ a {
     color: rgb(17, 30, 108);
 }
 
-.hh{
-    background: transparent url(../img/BlauerNebel.JPG) bottom center no-repeat;
-    height: 200px;;
-    background-size:cover;
-}
 .hh h1{
     text-align: center;
-    padding-top:40px;
-    text-decoration: underline;
-    color: orange;
+    padding-top:45px;
+    color: rgb(17, 30, 108);
 }
 
 /*Wettbewerb*/
 
 .container-wettbewerb-beschreibung h2{
     text-align: center;
-    color: rgb(17, 30, 108);
-    font-size: 45px;
+    color: orange;
+    font-size: 35px;
 }
 
 .container-wettbewerb-beschreibung p{
-    font-size: 16px;
+    font-size: 20px;
     border-bottom: solid 4px silver;
     padding-bottom: 15px;
     padding-left:7px;
     padding-right: 7px;
+}
+
+.container-wettbewerb-beschreibung p:last-child{
+    border: none;
+}
+
+/* sponsoren*/
+
+.Sponsoren-beschreibung p{
+    font-size: 20px;
 }
 
 /* Button */
@@ -258,7 +264,7 @@ a {
 
 .button:hover{
     background: rgb(17, 30, 108);
-    color: black;
+    color: white;
 }
 
 .btn-dark{
@@ -267,8 +273,8 @@ a {
 }
 
 .btn-dark:hover{
-    background: black;
-    color: #D28202;
+    background: rgb(17, 30, 108);
+    color: white;
 }
 
 /* clearfix */
