@@ -37,7 +37,8 @@ a {
 .unser-team,
 .Überschrift,
 .container-wettbewerb-beschreibung,
-.Sponsoren-beschreibung{
+.Sponsoren-beschreibung,
+.kontakt-daten-bescheibung{
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
@@ -204,7 +205,7 @@ a {
 /* Unser Team */
 
 .unser-team{
-    border-bottom: solid 4px silver;
+    border-bottom: solid 3px silver;
     column-gap: 20px;
 }
 
@@ -222,6 +223,8 @@ a {
     color: rgb(17, 30, 108);
 }
 
+
+
 /*Wettbewerb*/
 
 .container-wettbewerb-beschreibung h2{
@@ -230,9 +233,13 @@ a {
     font-size: 35px;
 }
 
+.container-wettbewerb-beschreibung a{
+    color: blue;
+}
+
 .container-wettbewerb-beschreibung p{
     font-size: 20px;
-    border-bottom: solid 4px silver;
+    border-bottom: solid 3px silver;
     padding-bottom: 15px;
     padding-left:7px;
     padding-right: 7px;
@@ -246,6 +253,29 @@ a {
 
 .Sponsoren-beschreibung p{
     font-size: 20px;
+}
+
+.Sponsoren-beschreibung a{
+    color:blue;
+}
+
+/*KontaktDaten*/
+
+.kontakt-daten-bescheibung p{
+    font-size: 20px;
+}
+
+.kontakt-daten-bescheibung span{
+    color: orange;
+}
+
+.kontakt-daten-bescheibung a{
+    color: blue;
+}
+
+#images{
+    text-align: center;
+    padding: 30px;
 }
 
 /* Button */
@@ -336,7 +366,6 @@ a {
     .columns  article {
         width: 100%;
         border: none;
-        border-top: 1px solid silver;
         padding-top: 30px;
         margin-top: 30px;
     }
@@ -346,5 +375,20 @@ a {
         padding: 0;
     }
 
-}
+    .intro-content section{
+        width: 100%;
+        border: none;
+        border-top: 1px solid silver;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
 
+    .intro-content aside{
+        width: 100%;
+        border: none;
+        border-top: 1px solid silver;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+}
