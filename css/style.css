@@ -38,7 +38,9 @@ a {
 .Überschrift,
 .container-wettbewerb-beschreibung,
 .Sponsoren-beschreibung,
-.kontakt-daten-bescheibung{
+.kontakt-daten-bescheibung,
+.unser-team-last-cild,
+.der-wagen-beschreibung{
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
@@ -89,7 +91,8 @@ a {
 
 .intro {
     text-align: center;
-    padding-top: 145px;
+    padding-top: 105px;
+    padding-bottom: 70px;
 }
 
 .intro h1 {
@@ -116,6 +119,7 @@ a {
 .intro-aside{
     float: left;
     padding: 20px;
+    padding-top: 20px;
 }
 
 .intro-text{
@@ -209,6 +213,10 @@ a {
     column-gap: 20px;
 }
 
+.unser-team-last-cild p{
+    font-size: 23px;
+}
+
 .unser-team p{
     font-size: 23px;
 }
@@ -276,6 +284,16 @@ a {
 #images{
     text-align: center;
     padding: 30px;
+}
+
+/*unser Wagen*/
+
+.der-wagen-beschreibung{
+    font-size: 23px;
+}
+
+.der-wagen-beschreibung a{
+    color: blue;
 }
 
 /* Button */
@@ -391,4 +409,15 @@ a {
         margin-top: 30px;
     }
 
+    .unser-team p,
+    .unser-team-last-cild p{
+        font-size: 16px;
+    }
+
+}
+
+
+*{
+    margin-left: 0;
+    margin-right: 0;
 }
